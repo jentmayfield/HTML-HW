@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="UTF-8">
+  <title>Humidity</title>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="absolute.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <nav class="navbar">
+    <div class="navbar dashboard">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+    <a class="navbar-brand" href="WeatherDash.html">Lattitude</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse">
+    <ul class="nav navbar-nav nav-pills navbar-right">
+        <li class="dropdown active" >
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" >Plots <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="Max%20Temp.html">Max Temperature</a></li>
+              <li><a href="Humidty.html">Humidity</a></li>
+              <li><a href="Cloudiness.html#">Cloudiness</a></li>
+              <li><a href="Wind%20Speed.html">Wind Speed</a></li>
+            </ul>
+          </li>
+      <li role="presentation" class="active"><a href="Comparison.html">Comparison</a></li>
+      <li role="presentation" class="active"><a href="Data.html">Data</a></li>
+    </ul>
+    </div>
+    </div>
+    </nav>
+
+
+
+<main class="container">
+
+  <section id="main" class="col-lg-7 col-md-12">
+
+      <section id="figure">
+          <font color="teal"> <h2>Humidity </h2></font>
+          <img id="bio-image1" src="Fig2.png" alt="Fig2">
+      </section>
+      <p>There is not as much direct correlation between humidity and latitude.   There appears to be some correlations between the wind and humidity.  Higher winds decrease humidity.  Cities north of the equator experience higher wind speeds than those south of the equator.  More cities north of the equator experience more humidity as compared to cities south of the equator.
+        </p>
+
+      </section>
+  <section>
+    <aside id="vis-info" class="col-lg-5 col-md-12">
+      <font color="teal"><h3>Visualizations</h3></font>
+            <div class="box-set">
+            <img class="box box-1" src="Fig1.png" alt="Fig1">
+            <img class="box box-2" src="Fig2.png" alt="Fig2">
+            <img class="box box-3" src="Fig3.png" alt="Fig3">
+            <img class="box box-4" src="Fig4.png" alt="Fig4">
+            </div>
+      </aside>
+  </section>
+</main>
+
+<!-- <nav class="navbar">
+  <div class="container-fluid">
+
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Lattitude</a>
+    </div>
+
+
+      <div class="collapse navbar-collapse">
+        <ul class="nav navbar-nav nav-pills navbar-right">
+          <li class="dropdown active" >
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" >Plots <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="#">Separated link</a></li>
+              </ul>
+            </li>
+          <li role="presentation" class="active"><a href="#">Comparison</a></li>
+          <li role="presentation" class="active"><a href="#">Data</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav> -->
+
+
+
+
+</body>
+
+</html>

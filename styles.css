@@ -1,0 +1,133 @@
+/* Giving the body the specified background color, adding font sizes for the h1 and h3 elements we'll be using */
+body {
+  background: #f1f1f1;
+}
+
+h1 {
+  font-size: 120px;
+  color: white;
+
+}
+
+h2 {
+  color: teal;
+}
+
+h3 {
+  color: teal;
+  font-size: 30px;
+
+}
+
+/* Giving our navbar some padding and a background color */
+.navbar {
+  padding: 10px;
+  background: linen;
+}
+
+.navbar-brand {
+  background: teal;
+  color: white;
+}
+
+/* Making our navbar li's inline-block elements this makes it so we can have multiple on the same line. Floats could have been used too */
+.navbar li {
+  display: inline-block;
+  padding: 20px;
+  margin-right: 10px;
+  margin-left: 10px;
+  cursor: pointer;
+  background: #fff;
+  border-radius: 3px;
+}
+
+/* Getting rid of the default link styles here */
+.navbar li a {
+  color: #000;
+  text-decoration: none;
+}
+
+/* Giving the .post element margin on 3 sides */
+.post {
+  margin-top: 50px;
+  margin-right: 100px;
+  margin-left: 100px;
+}
+
+#nav-select {
+  visibility: hidden;
+}
+
+/* Adding media queries to show the drop-down, and hide the navbar when the screen is smaller than 480 pixels */
+@media (max-width: 480px) {
+  .navbar li {
+    padding: 10px;
+  }
+
+  .post {
+    margin-right: 30px;
+    margin-left: 30px;
+  }
+
+  .navbar ul {
+    visibility: hidden;
+  }
+
+  #nav-select {
+    visibility: visible;
+  }
+  .topnav-right {
+    float: right;
+  }
+}
+
+/* Selecting elements by class */
+.container {
+  width: 1024px;
+  margin: 0 auto;
+  /* float: left; */
+}
+
+/* Selecting elements by ID */
+#main,
+#vis-info,
+#bio-image {
+  /* float: left; */
+}
+
+#main {
+
+  width: 70%;
+  padding: 15px;
+  /* float: left; */
+}
+
+#vis-info {
+  width: 30%;
+  padding: 15px;
+  /* float: left; */
+}
+
+#bio-image {
+  width: 400px;
+  height: 300px;
+  margin-right: 20px;
+  /* float: left; */
+
+}
+
+#bio-image1 {
+
+  width: 700px;
+  height: 500px;
+  margin-right: 20px;
+
+}
+
+.com_img {
+  /* Absolute Position */
+  width: 580px;
+  height: 435px;
+  padding: 10px
+  border: 1px solid black;
+}
